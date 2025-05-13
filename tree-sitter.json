@@ -1,0 +1,38 @@
+{
+  "$schema": "https://tree-sitter.github.io/tree-sitter/assets/schemas/config.schema.json",
+  "grammars": [
+    {
+      "name": "promela",
+      "camelcase": "Promela",
+      "title": "Promela - Process Meta Language",
+      "scope": "source.promela",
+      "file-types": [
+        "qml"
+      ],
+      "injection-regex": "^promela$",
+      "class-name": "TreeSitterPromela"
+    }
+  ],
+  "metadata": {
+    "version": "0.0.0",
+    "license": "GPL",
+    "description": "Promela is a language used by the Spin model checker",
+    "authors": [
+      {
+        "name": "Dragyx"
+      }
+    ],
+    "links": {
+      "repository": "https://github.com/Dragyx/tree-sitter-promela"
+    }
+  },
+  "bindings": {
+    "c": true,
+    "go": true,
+    "node": true,
+    "python": true,
+    "rust": true,
+    "swift": true,
+    "zig": false
+  }
+}
