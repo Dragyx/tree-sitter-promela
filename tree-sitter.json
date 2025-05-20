@@ -7,7 +7,7 @@
       "title": "Promela - Process Meta Language",
       "scope": "source.promela",
       "file-types": [
-        "qml"
+        "pml"
       ],
       "injection-regex": "^promela$",
       "class-name": "TreeSitterPromela"
